@@ -1,0 +1,156 @@
+@mixin cssstyles($color: null, $font-weight: null, $letter-spacing: null, $font-size: null, $font-family: null, $font-stretch: null, $font-style: null, $height: null, $text-align: null, $opacity: null, $text-shadow: null) {
+color:#{$color}; 
+font-weight:#{$font-weight}; 
+letter-spacing:#{$letter-spacing}; 
+font-size:#{$font-size}; 
+font-family:#{$font-family}; 
+font-stretch:#{$font-stretch}; 
+font-style:#{$font-style}; 
+height:#{$height}; 
+text-align:#{$text-align}; 
+opacity:#{$opacity}; 
+text-shadow:#{$text-shadow}; 
+}
+@mixin imgstyles($width: null, $height: null) {
+width:#{$width}; 
+height:#{$height}; 
+}
+$var_93: normal;
+$var_69: 1.1px 1.7px 0.7px rgba(0, 0, 0, 0.47);
+$var_77: center;
+$var_94: 19px;
+$var_88: bold;
+$var_91: ProximaNova;
+$var_62: 300;
+$var_95: left;
+$var_70: #ffffff;
+$var_72: 0px;
+$var_87: #272727;
+$var_71: 900;
+$var_73: 3.0em;
+$var_64: 0.875em;
+$var_1: 1857px;
+$var_0: 40px;
+$var_90: 1.75em;
+$var_59: 33px;
+$button:("Ride_To_Top_Button":(40px);, "Up_Arrow_Container":(40px););
+ @each $name, $color in $button { 
+.#{$name} { 
+background-color : $color;
+ }
+}
+.It-takes-a-collaborative-approach-to-improve-the-lives-of-our-p_x362_y2324{
+@include cssstyles($color:$var_87,$font-weight:$var_62,$letter-spacing:$var_93,$font-size:$var_64,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:133px,$text-align:$var_95);
+ }
+
+.Ride-to-the-top_x852_y2771{
+@include cssstyles($color:$var_70,$font-weight:$var_88,$letter-spacing:$var_93,$font-size:1.0em,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:11px,$text-align:$var_77);
+ }
+
+.ABBVIE-ANNOUNCES-MULTIPLE-MILESTONES-FOR-PHASE-3-CLL14-VENETOCL_x376_y718{
+@include cssstyles($color:$var_87,$font-weight:$var_71,$letter-spacing:$var_93,$font-size:$var_73,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:201px,$text-align:$var_77);
+ }
+
+.-All-rights-reserved-Terms-of-use-privacy-policy_x831_y2674{
+@include cssstyles($color:rgba(255, 255, 255, 0.3),$font-weight:$var_93,$letter-spacing:$var_93,$font-size:$var_64,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$opacity:0.3,$height:$var_59,$text-align:$var_77);
+ }
+
+.We-go-beyond-medicine-to-deliver-innovative-holistic-health-ca_x487_y368{
+@include cssstyles($text-shadow:$var_69,$color:$var_70,$font-weight:$var_71,$letter-spacing:$var_72,$font-size:$var_73,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:95px,$text-align:$var_77);
+ }
+
+.Respiratory-diseases-among-premature-babies-is-a-leading-cause_x362_y1701{
+@include cssstyles($color:$var_87,$font-weight:$var_62,$letter-spacing:$var_93,$font-size:$var_64,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:155px,$text-align:$var_95);
+ }
+
+.Through-partnerships-and-recent-licensing-agreements-AbbVie-is_x361_y1965{
+@include cssstyles($color:$var_87,$font-weight:$var_62,$letter-spacing:$var_93,$font-size:$var_64,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:256px,$text-align:$var_95);
+ }
+
+.By-putting-patients-first-we-explore-new-medical-innovations-a_x468_y1175{
+@include cssstyles($text-shadow:$var_69,$color:$var_70,$font-weight:$var_71,$letter-spacing:$var_72,$font-size:$var_73,$font-family:$var_91,$font-stretch:$var_93,$font-style:$var_93,$height:87px,$text-align:$var_77);
+ }
+
+.Banner_Image_2{
+@include imgstyles($width:($var_1),$height:(462px));
+ }
+
+.Banner_Image_1{
+@include imgstyles($width:($var_1),$height:(470px));
+ }
+
+.Footer{
+	height : 230px;
+
+ }
+
+.WERE-INCREASING-ACCESS-TO-TREATMENT_x647_y1897{
+	color : $var_87;
+	font-weight : $var_88;
+	letter-spacing : $var_93;
+	font-size : $var_90;
+	font-family : $var_91;
+	font-stretch : $var_93;
+	font-style : $var_93;
+	height : $var_94;
+	text-align : $var_95;
+
+ }
+
+.Patient-Support_x723_y98{
+	color : $var_87;
+	font-weight : $var_71;
+	letter-spacing : $var_93;
+	font-size : $var_73;
+	font-family : $var_91;
+	font-stretch : $var_93;
+	font-style : $var_93;
+	height : $var_59;
+	text-align : $var_95;
+
+ }
+
+.THEY-INCLUDE-THREE-COMMITMENTS_x485_y1520{
+	color : $var_87;
+	font-weight : $var_71;
+	letter-spacing : $var_93;
+	font-size : $var_73;
+	font-family : $var_91;
+	font-stretch : $var_93;
+	font-style : $var_93;
+	height : $var_59;
+	text-align : $var_77;
+
+ }
+
+.WERE-IMPROVING-PATIENT-TREATMENT-OUTCOMES_x592_y2257{
+	color : $var_87;
+	font-weight : $var_88;
+	letter-spacing : $var_93;
+	font-size : $var_90;
+	font-family : $var_91;
+	font-stretch : $var_93;
+	font-style : $var_93;
+	height : $var_94;
+	text-align : $var_95;
+
+ }
+
+.Up_Arrow{
+	height : 25px;
+
+ }
+
+.WERE-ADDRESSING-LOCAL-HEALTH-CARE-CHALLENGES_x569_y1633{
+	color : $var_87;
+	font-weight : $var_88;
+	letter-spacing : $var_93;
+	font-size : $var_90;
+	font-family : $var_91;
+	font-stretch : $var_93;
+	font-style : $var_93;
+	height : $var_94;
+	text-align : $var_95;
+
+ }
+

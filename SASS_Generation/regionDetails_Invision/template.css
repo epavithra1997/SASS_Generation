@@ -1,0 +1,400 @@
+@mixin cssstyles($color: null, $letter-spacing: null, $font-size: null, $font-family: null, $height: null) {
+color:#{$color}; 
+letter-spacing:#{$letter-spacing}; 
+font-size:#{$font-size}; 
+font-family:#{$font-family}; 
+height:#{$height}; 
+}
+@mixin imgstyles($background-color: null, $width: null, $height: null) {
+background-color:#{$background-color}; 
+width:#{$width}; 
+height:#{$height}; 
+}
+$var_226: 0.1px;
+$var_1: 1px solid #8A96A0;
+$var_204: 0.75;
+$var_216: #FFFFFF;
+$var_231: 1.49px;
+$var_103: #AAB2C0;
+$var_217: 0.875em;
+$var_138: #354052;
+$var_233: ".SF NS Display";
+$var_128: 25px;
+$var_227: 0.9375em;
+$var_225: #8A96A0;
+$var_190: #0077FF;
+$var_23: 0 2px 42px 0 rgba(0,0,0,0.08);
+$var_124: #1A173B;
+$var_232: 0.6875em;
+$var_125: 0.14px;
+$var_126: 1.3125em;
+$var_15: 30px;
+$var_230: #B4BAC6;
+$var_22: 2.85px;
+$var_229: 18px;
+$var_219: 17px;
+$var_200: #637280;
+$var_14: 4px;
+$var_234: 12px;
+$button:();
+ @each $name, $color in $button { 
+.#{$name} { 
+background-color : $color;
+ }
+}
+.east-maryam_x1185_y637{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.south-mariane_x1185_y587{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.866-668-0327_x920_y687{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.susie-curry_x186_y737{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.643-insertions-neede_x1302_y107{
+@include cssstyles($color:$var_103,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.lonnyburgh_x1185_y737{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.215-593-5846_x920_y587{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.south-lori_x1185_y837{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.premium_x1466_y26{
+@include cssstyles($color:$var_216,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.cecilia-welch_x186_y587{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.sent_x1434.5_y636{
+@include cssstyles($color:$var_216,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.488-514-5012_x920_y837{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.ankunding-ralph-gmai_x389_y787{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.floyd-brakus-lindgre_x389_y637{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.theo-gleichner-kaia_x389_y737{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.sent_x1434.5_y686{
+@include cssstyles($color:$var_216,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.edgar-greer_x186_y787{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.monserratmouth_x1185_y687{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.showing-1-to-20-of-2_x137_y953{
+@include cssstyles($color:$var_103,$font-size:1.0em,$font-family:$var_233,$height:$var_229);
+ }
+
+.sara-glover_x186_y637{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.12-22-pm_x719_y687{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.open_x1431.5_y786{
+@include cssstyles($color:$var_225,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.07-56-pm_x719_y737{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.jabari-kilback-nelso_x389_y687{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.harriett-morgan_x186_y687{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.minerva-massey_x186_y837{
+@include cssstyles($color:$var_138,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.lia-purdy-yahoo-com_x389_y837{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.057-812-3947_x920_y637{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.985-747-0063_x920_y787{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.00-22-am_x718.5_y637{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.open_x1431.5_y836{
+@include cssstyles($color:$var_225,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.647-851-5280_x920_y737{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.sent_x1434.5_y736{
+@include cssstyles($color:$var_216,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.08-35-am_x718.5_y787{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.01-06-am_x718.5_y587{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.schmittfurt_x1185_y787{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.03-24-am_x718.5_y837{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.sent_x1434.5_y586{
+@include cssstyles($color:$var_216,$font-size:$var_217,$font-family:$var_233,$height:$var_219);
+ }
+
+.heather-keeling-gott_x389_y587{
+@include cssstyles($color:$var_225,$letter-spacing:$var_226,$font-size:$var_227,$font-family:$var_233,$height:$var_229);
+ }
+
+.Premium_Button{
+	background-color : var_190;
+	border-radius : var_14;
+	height : 35px;
+
+ }
+
+.Open_Button2{
+	border : var_1;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Open_Button1{
+	border : var_1;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Sent_Button1{
+	background-color : var_190;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Sent_Button2{
+	background-color : var_190;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Sent_Button3{
+	background-color : var_190;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Sent_Button4{
+	background-color : var_190;
+	border-radius : var_14;
+	height : var_15;
+
+ }
+
+.Page2{
+	border : 0.95px solid #C7CDD9;
+	border-radius : var_22;
+	box-shadow : var_23;
+	box-sizing : border-box;
+	height : 28.95px;
+
+ }
+
+.Page1{
+	background-color : var_190;
+	border-radius : var_22;
+	box-shadow : var_23;
+	height : 28px;
+
+ }
+
+.oval-4_x24_y17{
+@include imgstyles($background-color:($var_190),$width:(16px),$height:(36px));
+ }
+
+.city_x1187_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
+.overview_x372_y24{
+	color : #1880E7;
+	letter-spacing : $var_226;
+	font-size : $var_227;
+	font-family : $var_233;
+	height : $var_229;
+
+ }
+
+.name_x186_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
+.support-requests_x186_y475{
+	color : $var_124;
+	letter-spacing : $var_125;
+	font-size : $var_126;
+	font-family : $var_233;
+	height : $var_128;
+
+ }
+
+.Semicircle_Image{
+	height : 19.02px;
+
+ }
+
+.Icon{
+	height : 16.42px;
+
+ }
+
+.Progress_bar{
+	background-color : #C7CDD9;
+	border-radius : 3.32px;
+	transform : rotate(180deg);
+	opacity : 0.25;
+	height : 5px;
+
+ }
+
+.data-overview_x133_y102{
+	color : $var_124;
+	letter-spacing : $var_125;
+	font-size : $var_126;
+	font-family : $var_233;
+	height : $var_128;
+
+ }
+
+.time_x718_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
+.General_Results_Container{
+	height : 269px;
+
+ }
+
+.status_x1418_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
+.Settings_Icon{
+	height : 23.84px;
+
+ }
+
+.campaigns_x541_y24{
+	color : $var_200;
+	letter-spacing : $var_226;
+	font-size : $var_227;
+	font-family : $var_233;
+	opacity : $var_204;
+	height : $var_229;
+
+ }
+
+.analytics_x702_y24{
+	color : $var_200;
+	letter-spacing : $var_226;
+	font-size : $var_227;
+	font-family : $var_233;
+	opacity : $var_204;
+	height : $var_229;
+
+ }
+
+.phone-number_x921_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
+.email_x389_y539{
+	color : $var_230;
+	letter-spacing : $var_231;
+	font-size : $var_232;
+	font-family : $var_233;
+	height : $var_234;
+
+ }
+
